@@ -1,4 +1,5 @@
 [[redirects]]
-  from = "https://doc.busyless.app"
-  to = "https://busyless.com/doc"
+  from = "/doc"
+  to = "https://doc.busyless.app"
   status = 200
+  force = true
