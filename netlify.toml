@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/doc"
-  to = "https://doc.busyless.app"
-  status = 200
-  force = true
