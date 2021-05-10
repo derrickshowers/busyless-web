@@ -1,0 +1,17 @@
+.footer {
+  background-color: $white;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav-item {
+  padding: 3px 0;
+}
+
+.footer__nav-item--link {
+  text-decoration: none;
+  color: $main-color;
+}

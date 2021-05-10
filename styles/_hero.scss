@@ -1,0 +1,15 @@
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  height: 160px;
+  margin: 10px 30px;
+}
+
+.hero-description__wrapper {
+  width: 600px;
+  text-align: center;
+}

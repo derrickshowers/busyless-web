@@ -1,0 +1,114 @@
+body {
+  font-family: "San Francisco", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #EDEDED;
+}
+
+.header-1 {
+  font-size: 60px;
+}
+
+.text-1 {
+  font-size: 26px;
+  line-height: 37px;
+}
+
+.text-2 {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.m10 {
+  margin: 10px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.container {
+  background-color: #254465;
+  padding-top: 30px;
+}
+
+.container-wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
+
+/******** COMPONENTS ********/
+.nav {
+  background-color: #254465;
+  height: 70px;
+  border-bottom: solid 1px #EDEDED;
+}
+
+.nav__wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.nav__logo {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.nav__logo:hover {
+  color: white;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  height: 160px;
+  margin: 10px 30px;
+}
+
+.hero-description__wrapper {
+  width: 600px;
+  text-align: center;
+}
+
+.download {
+  background-color: #EDEDED;
+  padding-bottom: 100px;
+}
+
+.download-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download__busyless-logo {
+  height: 140px;
+  width: 140px;
+}
+
+.footer {
+  background-color: #EDEDED;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav-item {
+  padding: 3px 0;
+}
+
+.footer__nav-item--link {
+  text-decoration: none;
+  color: #254465;
+}
+
+/*# sourceMappingURL=index.css.map */
