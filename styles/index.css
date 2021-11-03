@@ -9,13 +9,17 @@ body {
 }
 
 .text-1 {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 37px;
 }
 
 .text-2 {
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.caption-1 {
+  font-size: 12px;
 }
 
 .center-text {
@@ -81,6 +85,7 @@ body {
 
 .video {
   background-color: #FFFFFF;
+  padding-top: 0px;
 }
 
 .video-wrapper {
@@ -106,13 +111,23 @@ body {
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #254465;
+}
+.footer.container {
+  padding-bottom: 30px;
 }
 
 .footer-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   padding: 0 10px;
+}
+
+.footer__nav-right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
 }
 
 .footer__nav-item {
@@ -121,7 +136,7 @@ body {
 
 .footer__nav-item--link {
   text-decoration: none;
-  color: #254465;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=index.css.map */

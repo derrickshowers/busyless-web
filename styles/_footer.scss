@@ -1,11 +1,22 @@
 .footer {
-  background-color: $white;
+  background-color: $main-color;
+
+  &.container {
+    padding-bottom: 30px;
+  }
 }
 
 .footer-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   padding: 0 10px;
+}
+
+.footer__nav-right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
 }
 
 .footer__nav-item {
@@ -14,5 +25,5 @@
 
 .footer__nav-item--link {
   text-decoration: none;
-  color: $main-color;
+  color: $white;
 }
