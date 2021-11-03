@@ -48,7 +48,7 @@ body {
 }
 
 .nav__wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .hero-description__wrapper {
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
 }
 
