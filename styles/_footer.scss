@@ -1,9 +1,7 @@
 .footer {
-  background-color: $main-color;
-
-  &.container {
-    padding-bottom: 30px;
-  }
+  background-color: $secondary-color;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer-wrapper {
@@ -13,14 +11,14 @@
   padding: 0 10px;
 }
 
-.footer__nav-right {
+.footer__nav--right {
   display: flex;
   align-items: flex-end;
   flex-direction: row-reverse;
 }
 
 .footer__nav-item {
-  padding: 3px 0;
+  padding: 5px 0;
 }
 
 .footer__nav-item--link {
