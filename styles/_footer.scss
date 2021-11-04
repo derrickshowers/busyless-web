@@ -1,18 +1,27 @@
 .footer {
-  background-color: $white;
+  background-color: $secondary-color;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   padding: 0 10px;
 }
 
+.footer__nav--right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+
 .footer__nav-item {
-  padding: 3px 0;
+  padding: 5px 0;
 }
 
 .footer__nav-item--link {
   text-decoration: none;
-  color: $main-color;
+  color: $white;
 }

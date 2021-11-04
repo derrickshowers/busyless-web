@@ -9,13 +9,17 @@ body {
 }
 
 .text-1 {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 37px;
 }
 
 .text-2 {
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.caption-1 {
+  font-size: 12px;
 }
 
 .center-text {
@@ -81,6 +85,8 @@ body {
 
 .video {
   background-color: #FFFFFF;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 
 .video-wrapper {
@@ -91,7 +97,8 @@ body {
 }
 
 .download {
-  background-color: #FFFFFF;
+  padding-top: 0px;
+  padding-bottom: 30px;
 }
 
 .download-wrapper {
@@ -100,28 +107,36 @@ body {
   align-items: center;
 }
 
-.download__busyless-logo {
-  height: 140px;
-  width: 140px;
+.download__app-store-logo {
+  height: 60px;
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #85C3E9;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   padding: 0 10px;
 }
 
+.footer__nav--right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+
 .footer__nav-item {
-  padding: 3px 0;
+  padding: 5px 0;
 }
 
 .footer__nav-item--link {
   text-decoration: none;
-  color: #254465;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=index.css.map */
